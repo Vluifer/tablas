@@ -1,0 +1,112 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+body{
+  font-family: "Oxygen", sans-serif;
+  background-color: gainsboro ;
+}
+
+#header{
+  margin: auto;
+  width: 80%;
+  height: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color:white;
+  flex-direction: initial;
+  
+ 
+}
+
+#img{
+height: 150px;
+}
+
+nav{
+  background-color:white;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ ul {
+   list-style: none;
+ }
+
+ #menu li>a{
+  background:white;
+  color:black;
+  padding: 10px 30px;
+  display: inline-block;
+  text-decoration: none;
+  min-width: 50px;
+}
+
+#menu li>a:hover{
+  border-bottom: 3px solid yellow;
+}
+
+#menu>li{
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+
+#menu>li:hover>ul {
+  display:block;
+}
+
+.contenedor {
+  background-color:white;
+  height: calc(100vh - 20px);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 30px 0 30px;
+
+}
+
+.contenedor-flex{
+  display: flex;
+}
+
+.elemento-flex{
+  padding: 10px;
+  background-color: dodgerblue;
+}
+
+.elemento-flex:nth-child(2){
+background-color: blue;
+}
+
+.elemento-flex:nth-child(3){
+background-color: aqua;
+}
+
+
+
+
+
+
+
+
+.tabla,th,td{
+    border: 1px solid black;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.none{
+    border-style: none;
+}
+
+.field{
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+}
